@@ -20,3 +20,9 @@ img {
   max-width: 100%;
 }
 
+.hero-container {
+  background-image: url("../assets/Rectangle\ 28.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
