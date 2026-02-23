@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,23 @@
 </head>
 <body>
    <header class="container">
-    <a href="#0"><img src="https://github.com/elsukovaeugeniia/portfolio-frontend/blob/main/Rectangle%2022.svg" alt="Логотип" class="header-logo-img"></a>
+    <a class="/">
+        <img src="https://raw.githubusercontent.com/elsukovaeugeniia/portfolio-frontend/4faeb811c9607989aa004e5491572a1a3670f8d0/assets/Rectangle%2022.svg" alt="Логотип" class="header-logo-img">
+    </a>
     <nav class="header-menu">
-        <ul></ul>
-        <ul></ul>
-        <ul></ul>
-        <ul></ul>
-        <ul></ul>
+        <ul>
+            <li class="header-list-item"><a href="#" data-key="services" class="item">Услуги</a></li>
+            <li class="header-list-item"><a href="#" data-key="prices" class="item">Цены</a></li>
+            <li class="header-list-item"><a href="#" data-key="portfolio" class="item">Портфолио</a></li>
+            <li class="header-list-item"><a href="#" data-key="blog" class="item">Блог</a></li>
+            <li class="header-list-item"><a href="#" data-key="contacts" class="item">Контакты</a></li>
+        </ul>
     </nav>
-
+    <button onclick="switchToEnglish()">English</button>
+    <button onclick="switchToRussian()">Русский</button>
    </header>
-    
+
+   <!-- Подключение файла translation.js -->
+   <script src="js/translation.js"></script>
 </body>
 </html>

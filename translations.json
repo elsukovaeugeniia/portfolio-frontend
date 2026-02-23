@@ -1,0 +1,16 @@
+{
+  "ru": {
+    "services": "Услуги",
+    "prices": "Цены",
+    "portfolio": "Портфолио",
+    "blog": "Блог",
+    "contacts": "Контакты"
+  },
+  "en": {
+    "services": "Servises",
+    "prices": "Prices",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contacts": "Contacts"
+  }
+}
