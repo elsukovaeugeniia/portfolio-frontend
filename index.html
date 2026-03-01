@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <!-- 1. Блок меню (шапка) -->
-   <header class="container">
+    <!-- 1. Блок меню -->
+   <header class="hat-container">
     <a class="/">
         <img src="https://raw.githubusercontent.com/elsukovaeugeniia/portfolio-frontend/4faeb811c9607989aa004e5491572a1a3670f8d0/assets/Rectangle%2022.svg" alt="Логотип" class="header-logo-img">
     </a>
@@ -25,7 +25,7 @@
     <button onclick="switchToRussian()">Русский</button>
    </header>
 
-   <!-- 2. 1 Блок  -->
+   <!-- 2. Блок Главный -->
    <div class="hero-container">
     <div class="image-container">
         <img src="https://github.com/elsukovaeugeniia/portfolio-frontend/blob/main/assets/97a1a250c0711f187a67699c3fb6eda_1%202.png?raw=true" alt="Фото Ника">
@@ -37,7 +37,7 @@
     </div>
    </div>
 
-   <!-- 3. Блок «Обо мне» -->
+   <!-- 3. Блок Обо мне -->
     <div class="hero-about">
         <div class="about-job">
             <h3>Обо мне</h3>
@@ -48,20 +48,92 @@
         </div>
     </div>
 
+   <!-- 4. Блок Услуги -->
+    <div class="hero-services">
+        <p>Услуги</p>
+        <div class="servises.Development">
+           <img src="assets/Vector@2x.png" alt="Значок"> 
+           <p>Разработка одностраничных приложений (SPA) на React/Vue.js/Angular</p> 
+        </div>
+        <div class="servises.Layout">
+           <img src="assets/Vector@2x-1.png" alt="Значок"> 
+           <p>Верстка адаптивных сайтов с использованием современных фреймворков и библиотек</p> 
+        </div>
+        <div class="servises.Integration">
+            <img src="assets/Vector@2x-2.png" alt="Значок">
+            <p>Интеграция фронтенда с бэкенд-API (REST, GraphQL, WebSockets)</p>
+        </div>
+        <div class="servises.Optimization">
+          <img src="assets/Vector@2x-3.png" alt="Значок">
+          <p>Оптимизация производительности фронтенда и SEO-подготовка</p>  
+        </div>
+    </div>
+   <!-- 5. Блок Портфолио -->
+    <div class="hero-portfolio">
+        <p>Портфолио</p>
+        <div><img src="assets/Rectangle 14.png" alt="Значок"></div>
+        <div><img src="assets/Rectangle 15.png" alt="Значок"></div>
+        <div><img src="assets/Rectangle 16.png" alt="Значок"></div>
+    </div>
 
 
+    <!-- 6. Блок Цены -->
+     <div class="hero-tariff">
+        <h2>Выгодные тарифы</h2>
+        <div class="tariffs-grid">
+    <!-- Базовый тариф -->
+             <div class="tariff-card basic">
+                <div class="tariff-title">Базовый</div>
+                <div class="tariff-price">10 000 ₽</div>
+                <div class="tariff-description">
+                    <ul>
+                        <li>Адаптивная вёрстка одной страницы</li>
+                        <li>Быстрые интерактивные элементы</li>
+                    </ul>
+      </div>
+      <button class="tariff-button">ЗАКАЗАТЬ</button>
+    </div>
 
+    <!-- Стандартный тариф -->
+    <div class="tariff-card standard">
+      <div class="tariff-title">Стандартный</div>
+      <div class="tariff-price">15 000 ₽</div>
+      <div class="tariff-description">
+        <ul>
+          <li>Вёрстка и разработка многостраничного сайта</li>
+          <li>Интеграция с REST API</li>
+          <li>Оптимизация производительности</li>
+        </ul>
+    </div>
+    <button class="tariff-button">ЗАКАЗАТЬ</button>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Премиум тариф -->
+    <div class="tariff-card premium">
+      <div class="tariff-title">Премиум</div>
+      <div class="tariff-price">20 000 ₽</div>
+      <div class="tariff-description">
+        <ul>
+          <li>Разработка SPA или PWA на React/Vue/Angular</li>
+          <li>Продвинутая интеграция</li>
+          <li>Комплексная оптимизация и SEO</li>
+        </ul>
+      </div>
+      <button class="tariff-button">ЗАКАЗАТЬ</button>
+    </div>
+  </div>
+     </div>
+     
+     
+    <!-- 7. Блок Футтер -->  
+     <footer class="footer-container">
+        <div><img src="assets/Vector.svg" alt="Twitter"></div>
+        <div><img src="assets/Vector-1.svg" alt="Instagram"></div>
+        <div><img src="assets/Vector-2.svg" alt="Facebook"></div>
+        <a class="/">
+            <img src="https://raw.githubusercontent.com/elsukovaeugeniia/portfolio-frontend/4faeb811c9607989aa004e5491572a1a3670f8d0/assets/Rectangle%2022.svg" alt="Логотип" class="header-logo-img">
+        </a>
+     </footer>
 
 
    <!-- Подключение файла translation.js -->
